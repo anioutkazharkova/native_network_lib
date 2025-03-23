@@ -12,7 +12,7 @@ plugins {
     id("com.vanniktech.maven.publish") version "0.30.0"
 }
 
-group = "io.github.anioukazharkova"
+group = "io.github.anioutkazharkova"
 version = "1.0.0"
 
 kotlin {

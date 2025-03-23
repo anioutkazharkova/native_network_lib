@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../native_network_lib/1.0.0/native_network_lib-1.0.0.module",
-    "group": "io.github.anioukazharkova",
-    "module": "native_network_lib",
-    "version": "1.0.0",
+    "url": "../../shared/1.0.1/shared-1.0.1.module",
+    "group": "io.github.anioutkazharkova",
+    "module": "shared",
+    "version": "1.0.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -35,7 +35,7 @@
       "files": [
         {
           "name": "shared-release.aar",
-          "url": "native_network_lib-android-1.0.0.aar",
+          "url": "shared-android-1.0.1.aar",
           "size": 14303,
           "sha512": "91293b171460f2fedc65e8a3c6a6cd0befee53c32f14ff73a593ba1d124be3525a11c68fbbd6680837f8aaeab9295fd1dd9200e7fca9aa7279d5573304f22c8d",
           "sha256": "0efa77813c4c46b74094ccf4114c8872d533dc3f76ee556176f2a6f467a92ab7",
@@ -159,7 +159,7 @@
       "files": [
         {
           "name": "shared-release.aar",
-          "url": "native_network_lib-android-1.0.0.aar",
+          "url": "shared-android-1.0.1.aar",
           "size": 14303,
           "sha512": "91293b171460f2fedc65e8a3c6a6cd0befee53c32f14ff73a593ba1d124be3525a11c68fbbd6680837f8aaeab9295fd1dd9200e7fca9aa7279d5573304f22c8d",
           "sha256": "0efa77813c4c46b74094ccf4114c8872d533dc3f76ee556176f2a6f467a92ab7",
@@ -181,8 +181,8 @@
       },
       "files": [
         {
-          "name": "shared-android-1.0.0-sources.jar",
-          "url": "native_network_lib-android-1.0.0-sources.jar",
+          "name": "shared-android-1.0.1-sources.jar",
+          "url": "shared-android-1.0.1-sources.jar",
           "size": 3504,
           "sha512": "376e69063709a75c7db7ce0a25eaea626dc637650c718d11343586abce689e66d35317bc395c7d9880aa4b4a472008eca698c4c4f9306e3816b5bf589f453eb2",
           "sha256": "e5016b806c486d0379fcf7891228b48bcad69b3de67f35f735d874f0ed039526",
