@@ -13,7 +13,7 @@ plugins {
 }
 
 group = "io.github.anioutkazharkova"
-version = "1.0.0"
+version = "1.0.1"
 
 kotlin {
     androidTarget {
@@ -64,7 +64,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates("io.github.anioukazharkova", "native_network_lib", "1.0.0")
+    coordinates("io.github.anioutkazharkova", "native_network_lib", "1.0.1")
 
     pom {
         name = "NativeLoaderLib"

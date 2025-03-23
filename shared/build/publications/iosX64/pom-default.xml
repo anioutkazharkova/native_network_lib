@@ -6,10 +6,33 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.github.azharkova.nativeloaderlib</groupId>
+  <groupId>io.github.anioutkazharkova</groupId>
   <artifactId>shared-iosx64</artifactId>
   <version>1.0.0</version>
   <packaging>klib</packaging>
+  <name>NativeLoaderLib</name>
+  <description>Small Kotlin Multiplatform Library for native network</description>
+  <url>https://github.com/anioutkazharkova/native_network_lib</url>
+  <inceptionYear>2025</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>https://www.apache.org/licenses/LICENSE-2.0.txt</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>anioutkazharkova</id>
+      <name>Anna Zharkova</name>
+      <url>https://github.com/anioutkazharkova/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://anioutkazharkova/native_network_lib.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/anioutkazharkova/native_network_lib.git</developerConnection>
+    <url>https://github.com/anioutkazharkova/native_network_lib</url>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>

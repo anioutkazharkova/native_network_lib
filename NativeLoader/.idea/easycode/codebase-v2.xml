@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
-    <option name="projectFiles" value="$PROJECT_DIR$/shared/src/androidMain/kotlin/ru/azharkova/nativeloaderlib/AsyncCall.kt;/Users/annazharkova/Book_KMP/NativeLoader/shared/src/androidMain/kotlin/ru/azharkova/nativeloaderlib/NetworkHttp.kt;/Users/annazharkova/Book_KMP/NativeLoader/shared/src/commonMain/kotlin/ru/azharkova/nativeloaderlib/JsonDecoder.kt;/Users/annazharkova/Book_KMP/NativeLoader/shared/src/commonMain/kotlin/ru/azharkova/nativeloaderlib/NetworkHttp.kt;/Users/annazharkova/Book_KMP/NativeLoader/shared/src/iosMain/kotlin/ru/azharkova/nativeloaderlib/NetworkiOSHttp.kt;/Users/annazharkova/Book_KMP/NativeLoader/shared/build.gradle.kts;/Users/annazharkova/Book_KMP/NativeLoader/build.gradle.kts;/Users/annazharkova/Book_KMP/NativeLoader/settings.gradle.kts" />
-  </component>
-</project>
