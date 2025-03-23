@@ -64,7 +64,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates("io.github.anioutkazharkova", "native_network_lib", "1.0.1")
+    coordinates("io.github.anioutkazharkova", "shared", "1.0.1")
 
     pom {
         name = "NativeLoaderLib"
