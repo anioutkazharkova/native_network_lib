@@ -1,0 +1,287 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.azharkova.nativeloaderlib",
+    "module": "shared",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-metadata-1.0.0.jar",
+          "url": "shared-1.0.0.jar",
+          "size": 3252,
+          "sha512": "70c42761379fc7dc8dfac7bbf716c30f7f262be6b3f6ff0ed85e781f0061694572a089c4dc584f84ea5e49ff97602f2386121bc055e2fd8fd956bf866a40f528",
+          "sha256": "079f1164320d334949cb9f0216cc04842e97d546de5f69b91982fd7d9cf6bc15",
+          "sha1": "a9402fc145bd0843387e75ca77beff8bb31ed2ce",
+          "md5": "aeca256b7e3c6c5d3ab28b2527b0eeb5"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "shared-kotlin-1.0.0-sources.jar",
+          "url": "shared-1.0.0-sources.jar",
+          "size": 3022,
+          "sha512": "5a2d04915cb33a9d0d48db07c7e255bdb6246dea0734c531e21b91de3071165c1ac3e0eb03914b28ec33bbf4fa546adb7b0408d96a7c3d8eaa224adcd321a256",
+          "sha256": "f123a5917891993f116815b205cc4a545ec3e1e3e705552380948d8aca442f85",
+          "sha1": "4c68329af4a5f1b3f07971ac1b5dfbefeb099365",
+          "md5": "81c963f58a4f36542e32247ea83b2e95"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android/1.0.0/shared-android-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android/1.0.0/shared-android-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android/1.0.0/shared-android-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosarm64/1.0.0/shared-iosarm64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosarm64/1.0.0/shared-iosarm64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosarm64/1.0.0/shared-iosarm64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iossimulatorarm64/1.0.0/shared-iossimulatorarm64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iossimulatorarm64/1.0.0/shared-iossimulatorarm64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iossimulatorarm64/1.0.0/shared-iossimulatorarm64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosx64/1.0.0/shared-iosx64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iosx64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosx64/1.0.0/shared-iosx64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iosx64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosx64/1.0.0/shared-iosx64-1.0.0.module",
+        "group": "io.github.azharkova.nativeloaderlib",
+        "module": "shared-iosx64",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}
